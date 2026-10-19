@@ -1,7 +1,9 @@
-My NvChad configs.
+My Neovim configs.
 
-NvChad paired with Neovide.
+Currently, its theme overrides are set to be transparent.
 
 ## Tested on
 
-OS: Windows 10
+- Windows 10 (Neovim + Neovide)
+- Arch Linux (Kernel 7.2.11-arch1-1)
+

@@ -26,7 +26,9 @@ return {
                 "html-lsp",
                 "css-lsp",
                 "neocmakelsp",
-                "pyright"
+                "pyright",
+                "oxlint",
+                "shuck"
             },
         },
     },
@@ -39,7 +41,8 @@ return {
             ensure_installed = {
                 "vim", "lua", "vimdoc",
                 "html", "css", "cmake",
-                "python", "cpp"
+                "python", "cpp", "javascript",
+                "zsh"
             },
             auto_install = true,
             highlight = {

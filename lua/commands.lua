@@ -1,7 +1,7 @@
 require "nvchad.autocmds"
 
 vim.cmd [[
-autocmd VimEnter * cd $cppcode
+autocmd VimEnter * cd ~
 ]]
 
 vim.api.nvim_create_user_command("Compile", function()
@@ -35,7 +35,7 @@ vim.api.nvim_create_user_command("Run", function()
     end
 
     vim.cmd("cd %:h")
-    vim.cmd("split | term %<.exe")
+    vim.cmd("split | term ./%<")
 end, {nargs=0})
 
 -- Quick-review files: zf every "> [!answer]" paragraph on open (no spoilers); za reveals it.
