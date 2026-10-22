@@ -1,7 +1,7 @@
 require "nvchad.autocmds"
 
 vim.cmd [[
-autocmd VimEnter * cd ~
+autocmd VimEnter * cd $code
 ]]
 
 vim.api.nvim_create_user_command("Compile", function()
